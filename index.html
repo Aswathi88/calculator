@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+
+<body >
+ 
+    <div class="border border-secondary container " style=" width:230px; height: 220px;   box-shadow: 0 4px 8px 0 rgba(40, 11, 11, 0.904), 0 6px 20px 0 rgba(230, 224, 224, 0.921);
+    background-color: black;  font-size: 24px; padding: 10px 10px; border-radius: 5px;  align-items: center; justify-content: center; margin-left: 600px; margin-top: 200px;" >
+
+<div class="row ">
+
+    <input style=" height: 25px; padding: 5px 18px; border-radius: 5px; font-weight:bold; background-color: rgba(252, 252, 249, 0.918);" type="text" id="result" placeholder="0">
+
+    <div style=" font-size: 20px;  border-radius: 5px; margin-top: 20px;  ">
+      <button style=" width: 50px; height: 30px; border-radius: 5px;  " onclick="displaydata(1)" class="btn btn-outline-secondary">1</button>
+      <button style="width: 50px;height: 30px; border-radius: 5px;" onclick="displaydata(2)" class="btn btn-outline-secondary">2</button>
+      <button  style="width: 50px; height: 30px;border-radius: 5px;" onclick="displaydata(3)" class="btn btn-outline-secondary">3</button>
+      <button style="width: 50px; height: 30px; border-radius: 5px; background-color: chocolate;" onclick="displaydata('+')" class="btn btn-outline-secondary">+</button>
+
+    </div>
+    <div style="font-size: 20px;  border-radius: 5px; margin-top: 10px;">
+      <button style="width: 50px; height: 30px;border-radius: 5px;" onclick="displaydata(4)" class="btn btn-outline-secondary">4</button>
+        <button  style="width: 50px;height: 30px; border-radius: 5px;" onclick="displaydata(5)" class="btn btn-outline-secondary">5</button>
+          <button style="width: 50px;height: 30px; border-radius: 5px;" onclick="displaydata(6)" class="btn btn-outline-secondary">6</button>
+          <button  style="width: 50px;height: 30px; border-radius: 5px; background-color: chocolate;"onclick="displaydata('-')"class="btn btn-outline-secondary">-</button>
+
+    </div>
+    <div style="font-size: 20px;  border-radius: 5px; margin-top: 10px;">
+      <button style="width: 50px;height: 30px; border-radius: 5px; " onclick="displaydata(7)" class="btn btn-outline-secondary">7</button>
+        <button  style="width: 50px;height: 30px; border-radius: 5px;" onclick="displaydata(8)" class="btn btn-outline-secondary">8</button>
+          <button  style="width: 50px;height: 30px; border-radius: 5px;"onclick="displaydata(9)" class="btn btn-outline-secondary">9</button>
+          <button style="width: 50px;height: 30px; border-radius: 5px; background-color: chocolate;" onclick="displaydata('*')" class="btn btn-outline-secondary">*</button>
+ 
+    </div>
+
+ <div style="font-size: 20px;  margin-top: 10px;" >
+       <button style="width: 50px;height: 30px; border-radius: 5px; background-color: chocolate;"   onclick="allclr()" class="btn btn-outline-secondary">CLR</button>
+         <button  style="width: 50px;height: 30px; border-radius: 5px; background-color: chocolate; " onclick="findOut()" class="btn btn-outline-secondary">=</button>
+         <button style="width: 50px;height: 30px;  border-radius: 5px; background-color: chocolate;" onclick="backSpace()">DEL</button>
+         <button style="width: 50px;height: 30px; border-radius: 5px; background-color: chocolate;"  onclick="displaydata('/')" class="btn btn-outline-secondary">/</button>
+
+ </div>
+</div>
+</div>
+
+<script src="./calcu.js"></script>
+
+</html>
